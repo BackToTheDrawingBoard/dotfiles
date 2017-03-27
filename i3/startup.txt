@@ -1,0 +1,7 @@
+#========================================#
+#   startup.txt                          #
+#   programs to run after config loads   #
+#========================================#
+
+exec --no-startup-id compton -CGb
+exec --no-startup-id nm-applet

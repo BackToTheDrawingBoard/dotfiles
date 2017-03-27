@@ -1,0 +1,19 @@
+#=================================================#
+#   variables.txt                                 #
+#   set up variables for the rest of the config   #
+#=================================================#
+
+# this comment has been changed
+
+# Workspace name vars
+set $w1 1: www
+set $w2 2: dev
+set $w3 3
+set $w4 4
+set $w5 5
+set $w6 6
+set $w7 7
+set $w8 8
+set $w9 9: msg
+set $w0 0: music
+

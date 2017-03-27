@@ -1,0 +1,25 @@
+#============================================#
+#   control.txt                              #
+#   configuration regarding controlling i3   #
+#============================================#
+
+
+# Turn on or off the touchpad
+# Device number should be confirmed with xinput
+# xinput --set-prop 12 "Device Enabled" 0
+
+# enter fullscreen mode for the focused container
+bindsym $mod+Shift+f fullscreen toggle
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# focus the parent container
+bindsym $mod+a focus parent
+
+# focus the child container
+#bindsym $mod+d focus child
+
