@@ -1,0 +1,70 @@
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+
+! Use extended color scheme
+rofi.color-enabled:                  true
+! Color scheme for normal row
+rofi.color-normal:                   argb:00000000, #1aa, argb:11FFFFFF, #1aa,#333
+! Color scheme for urgent row
+rofi.color-urgent:                   argb:00000000, #f99, argb:11FFFFFF, #f99,#333
+! Color scheme for active row
+rofi.color-active:                   argb:00000000, #aa1, argb:11FFFFFF, #aa1,#333
+! Color scheme window
+rofi.color-window:                   argb:ee333333, #1aa,#1aa
+! Separator style (none, dash, solid)
+rofi.separator-style:                dash
+
+font: xft:inconsolata:size=11
+boldFont:  xft:inconsolata:size=11
+! letterSpace: -1
+
+URxvt*font: xft:Inconsolata:size=10
+! xterm*faceName:   Ubuntu Mono for Powerline
+! xterm*faceSize:   12
+! xterm*termName:   xterm-256color*scrollBar: false
+URxvt.scrollBar: false
+URxvt.saveLines: 4095
+URxvt.termName: rxvt-256color
+URxvt.iso14755: False
+
+! URxvt*transparent: true
+! URxvt.background:   #282a2e
+! URxvt.shading: 10
+
+! special
+*.foreground:   #c5c8c6
+*.background:   #282a2e
+*.cursorColor:  #c5c8c6
+
+! black
+*.color0:       #282a2e
+*.color8:       #363a40
+
+! red
+*.color1:       #912b2b
+*.color9:       #cc6666
+
+! green
+*.color2:       #00aa00
+*.color10:      #7bf09a
+
+! yellow
+*.color3:       #e29140
+*.color11:      #f0c674
+
+! blue
+*.color4:       #4950ad
+*.color12:      #7e90ff
+
+! magenta
+*.color5:       #aa00aa
+*.color13:      #cd69cd
+
+! cyan
+*.color6:       #006aaa
+*.color14:      #53adc9
+
+! white
+*.color7:       #aaaaaa
+*.color15:      #e8e4da
