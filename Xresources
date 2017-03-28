@@ -20,6 +20,7 @@ boldFont:  xft:inconsolata:size=11
 ! letterSpace: -1
 
 URxvt*font: xft:Inconsolata:size=10
+URxvt*geometry: 110x35
 ! xterm*faceName:   Ubuntu Mono for Powerline
 ! xterm*faceSize:   12
 ! xterm*termName:   xterm-256color*scrollBar: false

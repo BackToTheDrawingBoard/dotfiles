@@ -5,3 +5,4 @@
 
 exec --no-startup-id compton -CGb
 exec --no-startup-id nm-applet
+exec --no-startup-id telegram

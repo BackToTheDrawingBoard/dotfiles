@@ -7,6 +7,10 @@
 # start a terminal
 # bindsym $mod+Shift+Return exec i3-sensible-terminal
 bindsym $mod+Return exec urxvtcd
+# mod-space now starts a floating terminal
+bindsym $mod+space exec urxvtcd -title MAGIC_TERM -geometry 80x20
+for_window [title="MAGIC_TERM"] floating enable
+
 
 # Program launcher
 bindsym $mod+f exec --no-startup-id rofi -show window
@@ -14,6 +18,18 @@ bindsym $mod+Shift+s exec --no-startup-id rofi -show ssh
 bindsym $mod+Shift+d exec --no-startup-id rofi -show run
 bindsym $mod+d exec --no-startup-id rofi -show drun -sidebar-mode
 
-exec --no-startup-id compton -CGb
-exec --no-startup-id nm-applet
+assign [$w1regex] $w1
+assign [$w2regex] $w2
+assign [$w3regex] $w3
+assign [$w4regex] $w4
+assign [$w5regex] $w5
+assign [$w6regex] $w6
+assign [$w7regex] $w7
+assign [$w8regex] $w8
+assign [$w9regex] $w9
+assign [$w0regex] $w0
+
+# Set messaging applications to automatically float
+for_window [$w9regex] floating enable
+
 
