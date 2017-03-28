@@ -16,7 +16,22 @@ set $w6 6
 set $w7 7
 set $w8 8
 set $w9 9: msg
-set $w0 0: music
+set $w0 10: music
+
+# Regexes for windows that belong on each workspace
+# n.b. that i3 uses PCRE-style expressions, so (?i) is a caseless matching
+# modifier
+set $w1regex class="(?i)firefox|chrome"
+set $w2regex class="(?i)eclipse"
+set $w3regex
+set $w4regex
+set $w5regex
+set $w6regex
+set $w7regex
+set $w8regex
+set $w9regex class="(?i)signal|telegram"
+set $w0regex
+
 
 # left-up-down-right keys
 set $leftkey  h

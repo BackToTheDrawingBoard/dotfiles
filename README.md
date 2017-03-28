@@ -12,4 +12,5 @@ A non-exhaustive list of example links is below.
 $ /home/user/dotfiles/i3/make_config.sh
 $ ln -s /home/user/dotfiles/i3 /home/user/.config/i3
 $ ln -s /home/user/dotfiles/Xresources /home/user/.Xresources
+$ ln -s /home/user/dotfiles/vimrc /home/user/.vimrc
 `
