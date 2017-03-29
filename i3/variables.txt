@@ -3,7 +3,8 @@
 #   set up variables for the rest of the config   #
 #=================================================#
 
-# this comment has been changed
+# Wallpaper location variable
+set $bgloc /home/luci/Pictures/hex_wall.png
 
 # Workspace name vars
 set $w1 1: www
@@ -32,3 +33,8 @@ set $w9regex class="(?i)signal|telegram"
 set $w0regex
 
 
+# left-up-down-right keys
+set $leftkey  h
+set $downkey  j
+set $upkey    k
+set $rightkey l
