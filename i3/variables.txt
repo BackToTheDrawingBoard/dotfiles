@@ -21,7 +21,7 @@ set $w0 10: music
 # n.b. that i3 uses PCRE-style expressions, so (?i) is a caseless matching
 # modifier
 set $w1regex class="(?i)firefox|chrome"
-set $w2regex class="(?i)eclipse"
+set $w2regex class="(?i)eclipse|sublime"
 set $w3regex
 set $w4regex
 set $w5regex
