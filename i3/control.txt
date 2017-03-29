@@ -4,7 +4,7 @@
 #============================================#
 
 # Trigger an automatic xrandr resize on VGA-1
-xrandr --output VGA-1 --preferred
+bindxym $mod+= xrandr --output VGA-1 --preferred
 
 # Turn on or off the touchpad
 # Device number should be confirmed with xinput
