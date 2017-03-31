@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo memes > /home/luci/txt
+
+DOTFILES_PATH="/home/luci/dotfiles"
+pushd DOTFILES_PATH
+
+cat $DOTFILES_PATH/xinit/xmodmap_caps_meta_swap | xmodmap -
+
+$DOTFILES_PATH/i3/make_config.sh
+
+popd

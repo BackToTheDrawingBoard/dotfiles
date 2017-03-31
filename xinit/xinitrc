@@ -1,9 +1,0 @@
-#!/bin/bash
-DOTFILES_PATH="/home/luci/.config/i3"
-pushd DOTFILES_PATH
-
-cat $DOTFILES_PATH/xmodmap_caps_meta_swap | xmodmap -
-
-./make_config.sh
-
-popd
