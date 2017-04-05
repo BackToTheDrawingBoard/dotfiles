@@ -3,6 +3,8 @@
 #   programs to run after config loads   #
 #========================================#
 
+exec --no-startup-id /home/luci/dotfiles/scripts/xmodmap_caps_meta_swap
+exec --no-startup-id syndaemon -i 0.7 -d
 exec --no-startup-id compton -CGb
 exec --no-startup-id nm-applet
 exec --no-startup-id /home/luci/bin/Telegram
