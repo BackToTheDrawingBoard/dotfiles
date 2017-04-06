@@ -13,6 +13,9 @@ bindxym $mod+= xrandr --output VGA-1 --preferred
 # enter fullscreen mode for the focused container
 bindsym $mod+Shift+f fullscreen toggle
 
+## TODO
+# start lock
+
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
